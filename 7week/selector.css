@@ -1,0 +1,42 @@
+h1 { background-color:aquamarine;
+    color: blueviolet;
+text-align: center;
+text-shadow: 3px 3px 2px crimson}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p{color: blue;}
+#one{background-color: beige;}
+.xxl {
+    font-size: xx-large;
+}
+ital{
+    font-style: italic;
+}
+p > strong{
+    color: brown;
+}
+bady em {
+    color: red;
+}
+a:hover{
+    color: white;
+    background-color: midnightblue;
+    text-decoration: none;
+}
+a:link {color: midnightblue;
+background-color: white;
+text-decoration: none;}
+a:visited{
+color: azure;
+background-color: black;
+}
+h3:hover{
+color: white;
+background-color: black;
+}
+p::before{
+content: "그럴듯한 ";
+color: blueviolet;
+}
